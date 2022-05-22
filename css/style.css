@@ -1,0 +1,328 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+ --color__primario: #01baef;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+
+/*------*/
+
+html,
+body {
+  position: relative;
+  height: 60%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 70%;
+  height: 60%;
+  padding-bottom: 3em;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 80%;
+}
+
+.swiper-slide:nth-child(2n) {
+  width: 60%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 40%;
+}
+
+
+/*-----*/
+body {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.container{
+    display: flex;
+    width: 70%;
+    max-width: 1700px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav {
+    background-color: beige;
+    position: fixed;
+    width: 100%;
+padding-bottom: 2em;
+clip-path: polygon(0 0,100% 0,100% calc(100% - 13px),calc(50% + 27.88px) calc(100% - 13px),50% 100%,calc(50% - 27.88px) calc(100% - 13px),0 calc(100% - 13px));
+}
+
+nav img{
+     width: 80px;
+
+}
+
+
+nav .nav {
+    padding: .2em 0em;
+}
+
+
+nav .container ul li {
+    display: inline;
+    padding: .2em;
+}
+
+nav .container ul li a{
+    font-size: 1em;
+    color:var(--color__primario);
+    padding: .8em 1em;
+    border-radius: 10px;
+}
+
+nav .container ul li a:hover{
+    color: beige;
+    background-color:var(--color__primario);
+}
+
+
+section .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 70%;
+    height: 95vh;
+    max-width: 1700px;
+    margin: auto;
+    text-align: center;
+    color: beige;
+    font-size: 1.4em;
+    
+}
+
+.bienvenida .down {
+    margin-top: 2em;
+}
+
+.bienvenida {
+    background-color: var(--color__primario);
+padding-top: 5em;  
+
+}
+
+
+.bienvenida h1{
+    font-size: 50px;
+}
+
+.bienvenida p{
+    margin-top: .8em;
+}
+
+
+
+.servicios {
+    background-color: #bd5bff;
+    padding-top: 5em;
+    display: flex;
+    align-items: center;
+    padding: 4em 2em;
+}
+
+.servicios .wrap{
+    
+    padding: 7em;
+}
+
+.servicios h1{
+    padding-top: 2em;
+    font-size: 35px;
+}
+.servicios p{
+    text-align: justify;
+    font-size: 18px;
+    padding-top: 1em;
+}
+
+.servicios a{
+    font-size: 1em;
+    color: #ffffff;
+    margin-top: 2em;
+    padding: .8em 1em;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+
+.servicios a:hover{
+    color: beige;
+    background-color:var(--color__primario);
+}
+
+.servicios .foto{
+    padding: 4em;
+}
+.servicios img{
+    width: 370px;
+    height: 340px;
+    border-radius: 50%;
+    border: 6px solid white;
+   
+}
+
+
+
+
+.trabajos {
+    background-color: rgb(255, 187, 41);
+    padding-top: 5em;
+    padding-bottom: 5em;
+
+}
+
+.trabajos h1{
+    font-size: 50px;
+}
+
+.trabajos p{
+    margin-bottom: 1em;
+}
+
+.contacto {
+    background-color: rgb(177, 218, 31);
+padding-bottom: 5em;
+padding-top: 8.3em;
+}
+
+.contacto .justify-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contacto h1{
+    font-size: 50px;
+    margin-top: 1em;
+}
+
+
+.contacto .diseñadores img{
+    width: 300px;
+margin: 1em;
+border-radius: 50%;
+border: 10px solid white;
+}
+
+.contacto .diseñadores .diseñadores_1{
+margin: 1em;
+}
+.contacto .diseñadores .diseñadores_2{
+    margin: 1em;
+    }
+    .contacto .diseñadores .diseñadores_3{
+        margin: 1em;
+        }
+
+.contacto h2{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 20px;
+}
+
+.contacto_1{
+    background-color: #c92929;
+    padding-top: 3em;
+}
+
+.contacto_1 h1{
+    font-size: 50px;
+}
+
+.contacto_1 .redes{
+    display: flex;
+
+    margin-top: 3em;
+    
+}
+
+.contacto_1 .redes .instagram{
+    padding-right: 2em;
+}
+
+.contacto_1 .redes .flickr img {
+    width: 205px;
+}
+
+.contacto_1 .redes a{
+    font-size: 1em;
+    color: #ffffff;
+    padding: .3em 1em;
+    border-radius: 10px;
+}
+
+.contacto_1 .redes a:hover{
+    color: beige;
+    background-color:#960e0e;
+}
+
+footer{
+    padding: 10px;
+    text-align: right;
+    background-color: var(--color__primario);
+    color: white;
+    
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+
+.animate__animated .animate__slideInDown {
+    --animate-duration: 2s;
+
+  }
+
